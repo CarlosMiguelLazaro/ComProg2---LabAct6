@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lazaro_LabAct6.css">
+	<link rel="icon" href="logo.png">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div class="mother-container">
+        <div class="form-container">
+            <form action="/submit" method="post">     
+                <table>
+                    <div class="logo-container">
+                        <img class="logo" src="logo.png">
+                    </div>
+                    <h1>
+                        Student Registration Form
+                    </h1>
+                    <tr>
+                        <td>
+                            <label for="name">Surname</label>
+                        </td>
+                        <td>
+                            <input class="input" type="text" id="surname" name="surname" required>
+                        </td>
+                    </tr>               
+                    <tr>
+                        <td>
+                            <label for="name">Given Name</label>
+                        </td>
+                        <td>
+                            <input class="input" type="text" id="givname" name="givname" required>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <label for="name">Middle Name</label>
+                        </td>
+                        <td>
+                            <input class="input" type="text" id="midname" name="midname" required>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <label for="name">Student Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        </td>
+                        <td>
+                            <input class="input" type="text" id="midname" name="midname" required>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            <label for="email">AdU Email</label>
+                        </td>
+                        <td>
+                            <input class="input" type="email" id="email" name="email" required>
+                        </td>
+                    </tr>      
+                    <tr>
+                        <td>
+                            <label for="gender">Gender</label>
+                        </td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male" required>
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female" required>
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="other" required>
+                            <label for="other">Other</label>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <label for="comments">Notes</label>
+                        </td>
+                        <td>
+                            <textarea class="input" id="comments" name="comments"></textarea>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <input class="submit" type="submit" value="Submit">
+                        </td>
+                    </tr>                       
+                </table>            
+            </form>
+        </div>
+    </div>
+</body>
+</html>
